@@ -1,7 +1,7 @@
 ---
 output:
-  ghdown::github_html_document: default
   github_document: default
+  ghdown::github_html_document: default
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
