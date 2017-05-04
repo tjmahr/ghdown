@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This template produces an HTML document that uses a similar style as the one 
 applied to markdown files on Github. (Ultimately, `github_html_document` is 
-just a wrapper for `rmarkdown::html_document` but it uses the Github-themed CSS
+just a wrapper for `rmarkdown::html_document` but it uses a Github-themed CSS
 style file.) 
 
 Unlike Github-flavored markdown files, these HTML files can render Mathjax 
