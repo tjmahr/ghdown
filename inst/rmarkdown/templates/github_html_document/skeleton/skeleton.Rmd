@@ -10,9 +10,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Github-themed HTML documents
 
-This template produces an HTML document that uses a similar style applied to
-markdown files on Github. Unlike Github-flavored markdown files, these HTML
-files can render Mathjax equations: $y = mx + b$.
+This template produces an HTML document that uses a similar style as the one 
+applied to markdown files on Github. (Ultimately, `github_html_document` is 
+just a wrapper for `rmarkdown::html_document` but it uses the Github-themed CSS
+style file.) 
+
+Unlike Github-flavored markdown files, these HTML files can render Mathjax 
+equations: $y = mx + b$.
 
 The usual RMarkdown boilerplate is included below.
 
